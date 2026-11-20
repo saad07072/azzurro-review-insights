@@ -73,16 +73,31 @@
 
     <!-- Global Controls & Filter Bar -->
     <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
-      <div class="flex items-center space-x-2">
-        <i data-lucide="building-2" class="w-5 h-5 text-blue-600"></i>
-        <label for="propertyFilter" class="text-sm font-semibold text-slate-700">Select Property:</label>
-        <select id="propertyFilter" onchange="onPropertyChange()" class="bg-slate-50 border border-slate-300 text-slate-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2 font-medium">
-          <option value="all">All 4 Azzurro Properties</option>
-          <option value="olympic-paddington">Olympic Hotel Paddington</option>
-          <option value="venus-potts-point">Potts Point (Venus Potts Point Sydney)</option>
-          <option value="venus-surry-hills">Central Sydney (Venus Surry Hills)</option>
-          <option value="chateau-de-venus">Darling Harbour (Chateau de Venus)</option>
-        </select>
+      <div class="flex flex-wrap items-center gap-4">
+        <!-- Property Filter -->
+        <div class="flex items-center space-x-2">
+          <i data-lucide="building-2" class="w-4 h-4 text-blue-600"></i>
+          <label for="propertyFilter" class="text-xs font-bold text-slate-700">Property:</label>
+          <select id="propertyFilter" onchange="onPropertyChange()" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2 font-semibold">
+            <option value="all">All 4 Azzurro Properties</option>
+            <option value="olympic-paddington">Olympic Hotel Paddington</option>
+            <option value="venus-potts-point">Potts Point (Venus Potts Point Sydney)</option>
+            <option value="venus-surry-hills">Central Sydney (Venus Surry Hills)</option>
+            <option value="chateau-de-venus">Darling Harbour (Chateau de Venus)</option>
+          </select>
+        </div>
+
+        <!-- Date Filter -->
+        <div class="flex items-center space-x-2">
+          <i data-lucide="calendar" class="w-4 h-4 text-blue-600"></i>
+          <label for="dateFilter" class="text-xs font-bold text-slate-700">Date Range:</label>
+          <select id="dateFilter" onchange="onDateFilterChange()" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2 font-semibold">
+            <option value="all">All Available Reviews</option>
+            <option value="7d">Current Week (Past 7 Days)</option>
+            <option value="14d">Past 14 Days</option>
+            <option value="30d">Past 30 Days</option>
+          </select>
+        </div>
       </div>
 
       <div class="text-xs text-slate-500 flex items-center space-x-2">

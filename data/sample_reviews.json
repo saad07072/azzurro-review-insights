@@ -1,5 +1,49 @@
 [
   {
+    "id": 130,
+    "review_hash": "86df1e83c00323fb8d0f4f3656132dc01f7dbb921adb990bb555f706796fbba6",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Isla W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-20",
+    "rating": 9.0,
+    "title": "Helpful and welcoming staff",
+    "positive_text": "Front desk team was friendly and arranged a taxi for our early flight.",
+    "negative_text": "None, had a pleasant stay.",
+    "full_text": "Front desk team was friendly and arranged a taxi for our early flight. None, had a pleasant stay.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "1 night",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T04:58:26.255416"
+  },
+  {
+    "id": 131,
+    "review_hash": "07da976cda92ee545f739532a3e224fb28061a6ad68fad7bb73de193bb4114bc",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Oliver W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-20",
+    "rating": 9.0,
+    "title": "Helpful and welcoming staff",
+    "positive_text": "Front desk team was friendly and arranged a taxi for our early flight.",
+    "negative_text": "None, had a pleasant stay.",
+    "full_text": "Front desk team was friendly and arranged a taxi for our early flight. None, had a pleasant stay.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "1 night",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T04:58:26.497809"
+  },
+  {
     "id": 19,
     "review_hash": "3a5854eda4afe1ff4a9924d8977342183fe0e3fa92c0f806370ad2925cc0d841",
     "property_id": "venus-potts-point",

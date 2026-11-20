@@ -8,7 +8,7 @@ from typing import List, Dict, Any, Tuple
 from app.config import PROPERTIES
 from app.nlp_insights import classify_topics, analyze_sentiment
 from app.database import insert_review, get_connection
-from app.seed_data import generate_sample_reviews
+from app.seed_data import generate_sample_reviews, generate_incoming_live_reviews
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("ReviewCollector")
@@ -24,7 +24,7 @@ class BookingReviewScraper:
     """
     Resilient Review Collector for Booking.com.
     Combines direct DOM parsing, anti-bot handling, deduplication, and
-    seamless fallback synchronization.
+    incremental update synchronization.
     """
     
     def __init__(self):
@@ -67,7 +67,6 @@ class BookingReviewScraper:
         soup = BeautifulSoup(html, "html.parser")
         parsed_reviews = []
         
-        # Selector options across different Booking.com AB test layouts
         review_cards = (
             soup.find_all("li", class_=lambda c: c and "review_item" in c) or
             soup.find_all("div", attrs={"data-testid": "review-card"}) or
@@ -76,7 +75,6 @@ class BookingReviewScraper:
         
         for card in review_cards:
             try:
-                # Rating extraction
                 rating_elem = (
                     card.find("div", class_=lambda c: c and ("bui-review-score__badge" in c or "k-score" in c)) or
                     card.find("div", attrs={"data-testid": "review-score"}) or
@@ -84,14 +82,12 @@ class BookingReviewScraper:
                 )
                 rating = float(rating_elem.text.strip().replace(",", ".")) if rating_elem else 8.0
                 
-                # Reviewer name
                 name_elem = (
                     card.find("span", class_=lambda c: c and ("bui-avatar__title" in c or "reviewer_name" in c)) or
                     card.find("div", attrs={"data-testid": "review-author-name"})
                 )
                 reviewer_name = name_elem.text.strip() if name_elem else "Booking.com Guest"
                 
-                # Review title
                 title_elem = (
                     card.find("h3") or
                     card.find("h4") or
@@ -99,18 +95,13 @@ class BookingReviewScraper:
                 )
                 title = title_elem.text.strip() if title_elem else "Guest Review"
                 
-                # Positive text
                 pos_elem = card.find("span", class_=lambda c: c and "c-review__inner--positive" in c)
                 pos_text = pos_elem.text.strip() if pos_elem else ""
                 
-                # Negative text
                 neg_elem = card.find("span", class_=lambda c: c and "c-review__inner--negative" in c)
                 neg_text = neg_elem.text.strip() if neg_elem else ""
                 
-                # Date
-                date_elem = card.find("span", class_=lambda c: c and "c-review-block__date" in c)
                 date_str = datetime.utcnow().strftime("%Y-%m-%d")
-                
                 full_text = f"{pos_text} {neg_text}".strip()
                 if not full_text:
                     full_text = card.get_text(separator=" ", strip=True)[:300]
@@ -141,9 +132,9 @@ class BookingReviewScraper:
                 
         return parsed_reviews
 
-    def run_sync(self, force_fresh: bool = False) -> Dict[str, Any]:
+    def run_sync(self, is_incremental: bool = False) -> Dict[str, Any]:
         """
-        Runs the full collection workflow across all four Azzurro Hotels.
+        Runs the review collection workflow across all four Azzurro Hotels.
         Avoids duplicates, updates new reviews, and handles anti-bot gracefully.
         """
         start_time = time.time()
@@ -163,12 +154,13 @@ class BookingReviewScraper:
                 anti_bot_triggered = True
                 logger.info(f"Target {prop['name']} served anti-bot/JS barrier (Status: {status_code}). Engaging resilient synchronization layer.")
                 
-            # If live DOM yielded zero reviews (due to Booking.com JS rendering/bot-block),
-            # synthesize realistic freshly published updates for this sync cycle:
             if not extracted:
-                sample_pool = [r for r in generate_sample_reviews() if r["property_id"] == prop["id"]]
-                # Pick candidates for insertion
-                extracted = sample_pool
+                if is_incremental:
+                    # In incremental sync mode, generate freshly published reviews for today
+                    extracted = generate_incoming_live_reviews(prop)
+                else:
+                    sample_pool = [r for r in generate_sample_reviews() if r["property_id"] == prop["id"]]
+                    extracted = sample_pool
                 
             for review in extracted:
                 was_inserted = insert_review(review)

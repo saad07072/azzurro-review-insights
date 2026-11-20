@@ -2,6 +2,7 @@ let propertyChartInstance = null;
 let trendChartInstance = null;
 let currentFilters = {
     property_id: 'all',
+    date_range: 'all',
     sentiment: 'all',
     topic: 'all',
     search: ''
@@ -23,7 +24,8 @@ async function initDashboard() {
 async function loadMetrics() {
     try {
         const propId = currentFilters.property_id;
-        const res = await fetch(`/api/metrics?property_id=${propId}`);
+        const dateRange = currentFilters.date_range;
+        const res = await fetch(`/api/metrics?property_id=${propId}&date_range=${dateRange}`);
         const data = await res.json();
         
         renderKPICards(data);
@@ -282,6 +284,15 @@ async function loadReviews() {
         if (currentFilters.topic !== 'all') params.append('topic', currentFilters.topic);
         if (currentFilters.search) params.append('search', currentFilters.search);
         
+        if (currentFilters.date_range !== 'all') {
+            const daysMap = { '7d': 7, '14d': 14, '30d': 30 };
+            const days = daysMap[currentFilters.date_range] || 365;
+            const cutoffDate = new Date();
+            cutoffDate.setDate(cutoffDate.getDate() - days);
+            const cutoffStr = cutoffDate.toISOString().split('T')[0];
+            params.append('start_date', cutoffStr);
+        }
+        
         const res = await fetch(`/api/reviews?${params.toString()}`);
         const data = await res.json();
         
@@ -371,6 +382,13 @@ function onPropertyChange() {
     loadReviews();
 }
 
+function onDateFilterChange() {
+    const sel = document.getElementById('dateFilter');
+    currentFilters.date_range = sel.value;
+    loadMetrics();
+    loadReviews();
+}
+
 function setSentimentFilter(val) {
     currentFilters.sentiment = val;
     ['all', 'positive', 'negative'].forEach(pill => {
@@ -413,13 +431,15 @@ function debounceSearch() {
 function resetFilters() {
     currentFilters = {
         property_id: 'all',
+        date_range: 'all',
         sentiment: 'all',
         topic: 'all',
         search: ''
     };
-    document.getElementById('propertyFilter').value = 'all';
-    document.getElementById('topicDropdownFilter').value = 'all';
-    document.getElementById('searchInput').value = '';
+    if (document.getElementById('propertyFilter')) document.getElementById('propertyFilter').value = 'all';
+    if (document.getElementById('dateFilter')) document.getElementById('dateFilter').value = 'all';
+    if (document.getElementById('topicDropdownFilter')) document.getElementById('topicDropdownFilter').value = 'all';
+    if (document.getElementById('searchInput')) document.getElementById('searchInput').value = '';
     setSentimentFilter('all');
     loadMetrics();
     loadReviews();

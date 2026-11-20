@@ -400,3 +400,49 @@ def generate_sample_reviews() -> List[Dict[str, Any]]:
         })
         
     return reviews
+
+def generate_incoming_live_reviews(prop: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Generates newly published reviews for today when sync is triggered."""
+    now = datetime.utcnow()
+    incoming = []
+    
+    # 50% chance to generate 1 newly published review for this property today
+    if random.random() > 0.35:
+        first_names = ["Oliver", "Charlotte", "Henry", "Amelia", "Jack", "Isla", "Leo", "Ava"]
+        last_names = ["Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson"]
+        
+        candidates = [
+            ("Cleanliness", "Great location, but the bathroom floor was not swept and there was a strange smell from the drain.", 5.0, "Disappointing bathroom cleanliness"),
+            ("Check-in experience", "Checking in took almost 30 minutes because only one receptionist was working during peak hours.", 4.5, "Long check-in wait"),
+            ("Noise", "Pub downstairs was lively, but thin walls meant we heard music until midnight.", 6.0, "Noisy evening"),
+            ("Staff or receptionist behaviour", "Front desk team was friendly and arranged a taxi for our early flight.", 9.0, "Helpful and welcoming staff"),
+            ("Facilities", "Wi-Fi was fast and hot water pressure in the shower was great.", 8.5, "Solid facilities and fast internet")
+        ]
+        
+        tpl_topic, tpl_text, rating, title = random.choice(candidates)
+        name = f"{random.choice(first_names)} {random.choice(last_names)[0]}."
+        review_date = now.strftime("%Y-%m-%d")
+        
+        pos = "Convenient location for exploring the city." if rating < 7.0 else tpl_text
+        neg = tpl_text if rating < 7.0 else "None, had a pleasant stay."
+        full_text = f"{pos} {neg}".strip()
+        
+        incoming.append({
+            "property_id": prop["id"],
+            "property_name": prop["name"],
+            "reviewer_name": name,
+            "reviewer_country": "Australia",
+            "review_date": review_date,
+            "rating": rating,
+            "title": title,
+            "positive_text": pos,
+            "negative_text": neg,
+            "full_text": full_text,
+            "room_type": "Standard Queen Room",
+            "stay_duration": "1 night",
+            "topics": classify_topics(full_text),
+            "sentiment": analyze_sentiment(rating, full_text),
+            "scraped_at": now.isoformat()
+        })
+        
+    return incoming

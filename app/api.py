@@ -37,10 +37,18 @@ def get_properties():
     return PROPERTIES
 
 @app.get("/api/metrics")
-def get_metrics(property_id: Optional[str] = "all"):
+def get_metrics(property_id: Optional[str] = "all", date_range: Optional[str] = "all"):
     all_revs = get_all_reviews()
     if property_id and property_id != "all":
         all_revs = [r for r in all_revs if r["property_id"] == property_id]
+        
+    if date_range and date_range != "all":
+        from datetime import datetime, timedelta
+        days_map = {"7d": 7, "14d": 14, "30d": 30}
+        days = days_map.get(date_range, 365)
+        cutoff = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        all_revs = [r for r in all_revs if r["review_date"] >= cutoff]
+        
     return calculate_operations_metrics(all_revs)
 
 @app.get("/api/reviews")
@@ -72,7 +80,7 @@ def get_reviews(
 @app.post("/api/scrape")
 def trigger_scrape():
     scraper = BookingReviewScraper()
-    result = scraper.run_sync()
+    result = scraper.run_sync(is_incremental=True)
     return result
 
 @app.get("/api/export")
