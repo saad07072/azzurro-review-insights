@@ -169,9 +169,9 @@ def calculate_operations_metrics(reviews: List[Dict[str, Any]]) -> Dict[str, Any
     top_negative_topic = topic_insights[0] if topic_insights and topic_insights[0]["negative_count"] > 0 else None
     
     if top_negative_topic and top_negative_topic["percentage_of_negative"] > 0:
-        headline_insight = f"{top_negative_topic['percentage_of_negative']}% of negative reviews recently flagged {top_negative_topic['topic'].lower()}-related issues across properties."
+        headline_insight = f"{top_negative_topic['percentage_of_negative']}% of negative reviews this week mentioned {top_negative_topic['topic'].lower()}-related issues."
     else:
-        headline_insight = "Guest sentiment is steady with no prominent recurring operational failures flagged."
+        headline_insight = "No major operational issues flagged in recent reviews."
         
     # Weekly positive vs negative trends (last 6 weeks)
     weekly_trend = []

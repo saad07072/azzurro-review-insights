@@ -174,7 +174,7 @@ BASE_SEEDS = [
         "rating": 4.5,
         "title": "Unacceptable noise and poor cleanliness in shower",
         "pos": "Great coffee spots nearby and very central.",
-        "neg": "40% of our stay ruined by construction noise across the lane starting at 6:30am. Shower tiles had black mold in the corners.",
+        "neg": "Very loud construction noise across the lane started at 6:30am each morning. Also found mold in the shower tile corners.",
         "room_type": "Compact Double",
         "stay_duration": "3 nights",
         "days_ago": 3

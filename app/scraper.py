@@ -11,7 +11,7 @@ from app.database import insert_review, get_connection
 from app.seed_data import generate_sample_reviews, generate_incoming_live_reviews
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ReviewCollector")
+logger = logging.getLogger("scraper")
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -149,18 +149,16 @@ class BookingReviewScraper:
             extracted = []
             if success and len(html) > 5000:
                 extracted = self.parse_reviews_html(html, prop)
-                logger.info(f"Live parsed {len(extracted)} reviews from HTML for {prop['name']}.")
+                logger.info(f"Extracted {len(extracted)} reviews for {prop['name']}.")
             else:
                 anti_bot_triggered = True
-                logger.info(f"Target {prop['name']} served anti-bot/JS barrier (Status: {status_code}). Engaging resilient synchronization layer.")
+                logger.info(f"{prop['name']}: Booking anti-bot challenge (HTTP {status_code}). Using fallback dataset.")
                 
             if not extracted:
                 if is_incremental:
-                    # In incremental sync mode, generate freshly published reviews for today
                     extracted = generate_incoming_live_reviews(prop)
                 else:
-                    sample_pool = [r for r in generate_sample_reviews() if r["property_id"] == prop["id"]]
-                    extracted = sample_pool
+                    extracted = [r for r in generate_sample_reviews() if r["property_id"] == prop["id"]]
                 
             for review in extracted:
                 was_inserted = insert_review(review)
@@ -176,6 +174,6 @@ class BookingReviewScraper:
             "new_reviews_added": new_count,
             "duplicates_prevented": duplicate_count,
             "duration_seconds": duration,
-            "anti_bot_protection_handled": anti_bot_triggered,
+            "challenge_detected": anti_bot_triggered,
             "timestamp": datetime.utcnow().isoformat()
         }

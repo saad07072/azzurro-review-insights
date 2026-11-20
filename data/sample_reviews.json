@@ -91,6 +91,53 @@
     "scraped_at": "2026-11-20T04:33:59.223635"
   },
   {
+    "id": 137,
+    "review_hash": "be83c9976fa37f20c09ef1be149e003ca29aa2d1364d86e9ff7f13625b6f738e",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Ethan L.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-19",
+    "rating": 9.5,
+    "title": "Luxurious comfortable bed",
+    "positive_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Compact Studio",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 184,
+    "review_hash": "4c5607f8c8ec0e24a5f648bdc1b8abf96d4bd9dfe4be85b0293917c17435d445",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Alexander W.",
+    "reviewer_country": "United States",
+    "review_date": "2026-11-19",
+    "rating": 4.0,
+    "title": "Loud noise late into the night",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
     "id": 101,
     "review_hash": "31a1b37664c92c9a5b2281fed13bc3ae3418e9c50fad94e243d654817aa5189c",
     "property_id": "venus-surry-hills",
@@ -156,6 +203,75 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:06.161586"
+  },
+  {
+    "id": 132,
+    "review_hash": "395af4a1023c6b7cedf0b550ac8ec7b673addb94acdeb1c0a9f84d6be0b9ca45",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Lachlan M.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-18",
+    "rating": 8.0,
+    "title": "Charming heritage pub stay in the heart of Paddington",
+    "positive_text": "Loved the character of the building, great food downstairs in the bistro, and Oxford St shopping right outside.",
+    "negative_text": "Street noise on Friday night was audible from our room facing the street. Shower water pressure could be stronger.",
+    "full_text": "Loved the character of the building, great food downstairs in the bistro, and Oxford St shopping right outside. Street noise on Friday night was audible from our room facing the street. Shower water pressure could be stronger.",
+    "room_type": "Heritage Queen Room",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Noise",
+      "Facilities",
+      "Room condition"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 146,
+    "review_hash": "85429319b5d9178872baf14498d3a0413f27a3955d9ca6167a917fa1840d90e0",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Liam O'Connor",
+    "reviewer_country": "Ireland",
+    "review_date": "2026-11-18",
+    "rating": 8.5,
+    "title": "Super convenient spot near Kings Cross station",
+    "positive_text": "Just a 3 minute walk to the train, vibrant cafes nearby. Easy automated check-in and spotless bed linens.",
+    "negative_text": "Shared bathroom got busy between 8am and 9am. A second hairdryer would help.",
+    "full_text": "Just a 3 minute walk to the train, vibrant cafes nearby. Easy automated check-in and spotless bed linens. Shared bathroom got busy between 8am and 9am. A second hairdryer would help.",
+    "room_type": "Boutique Private Room",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Cleanliness",
+      "Check-in experience",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 181,
+    "review_hash": "a335c44237b0ea317451660feebf2c727559b8ad5ee2453301ab2d5dc6bf52fa",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Alexander A.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-18",
+    "rating": 3.5,
+    "title": "Unfriendly front desk attitude",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Check-in experience",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 1,
@@ -247,6 +363,75 @@
     ],
     "sentiment": "negative",
     "scraped_at": "2026-11-20T04:34:06.161586"
+  },
+  {
+    "id": 155,
+    "review_hash": "851c872abc20568a201906f44427d89d28671a93982d21c06b3e99f3c341505f",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Mia W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-17",
+    "rating": 9.0,
+    "title": "Quiet and peaceful stay",
+    "positive_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Superior King",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 159,
+    "review_hash": "fd2338ae21d0e9b4b743aa37f54a0292d2501c719803099bea4635663c3e7a37",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Kavita Patel",
+    "reviewer_country": "India",
+    "review_date": "2026-11-17",
+    "rating": 4.5,
+    "title": "Unacceptable noise and poor cleanliness in shower",
+    "positive_text": "Great coffee spots nearby and very central.",
+    "negative_text": "Very loud construction noise across the lane started at 6:30am each morning. Also found mold in the shower tile corners.",
+    "full_text": "Great coffee spots nearby and very central. Very loud construction noise across the lane started at 6:30am each morning. Also found mold in the shower tile corners.",
+    "room_type": "Compact Double",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Cleanliness",
+      "Noise",
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 177,
+    "review_hash": "68299479e63e3cf6e40c95614c9fcd5f52046386cb623294148504c6074fe4e0",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Hannah T.",
+    "reviewer_country": "New Zealand",
+    "review_date": "2026-11-17",
+    "rating": 9.0,
+    "title": "Exceptional and caring staff",
+    "positive_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "room_type": "Superior King",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 2,
@@ -386,6 +571,51 @@
     ],
     "sentiment": "negative",
     "scraped_at": "2026-11-20T04:34:06.161586"
+  },
+  {
+    "id": 135,
+    "review_hash": "f408d0673b28f76a314fc0af088f6c92653d967bef5d1f062a713cfc5c5782cd",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "James H.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-11-16",
+    "rating": 10.0,
+    "title": "Exceptional and caring staff",
+    "positive_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "room_type": "Compact Studio",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 178,
+    "review_hash": "61af1074edd691d1715436cb67739a017c39afc0d21bdf5af705982a104ba46d",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Luke S.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-16",
+    "rating": 8.0,
+    "title": "Great amenities and reliable Wi-Fi",
+    "positive_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around.",
+    "room_type": "Superior King",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 3,
@@ -666,6 +896,29 @@
     "scraped_at": "2026-11-20T04:34:06.161586"
   },
   {
+    "id": 133,
+    "review_hash": "f236bdeebbfe87e312d05c8847c3144c2c1473cbab7f47f1953b29a2c9d6fca4",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "David Tan",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-14",
+    "rating": 9.0,
+    "title": "Fantastic atmosphere and great staff service",
+    "positive_text": "Staff were exceptionally welcoming, held our bags before check-in and gave top café recommendations in Paddington.",
+    "negative_text": "No elevator which made carrying large luggage up the heritage stairs a bit of a workout.",
+    "full_text": "Staff were exceptionally welcoming, held our bags before check-in and gave top café recommendations in Paddington. No elevator which made carrying large luggage up the heritage stairs a bit of a workout.",
+    "room_type": "Deluxe King",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour",
+      "Facilities"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
     "id": 4,
     "review_hash": "52fd826d5abc5aca76cce7a15278c9f358b423504a3aa7fdb54bd1baf0e8396e",
     "property_id": "olympic-paddington",
@@ -735,6 +988,99 @@
     "scraped_at": "2026-11-20T04:34:05.441102"
   },
   {
+    "id": 136,
+    "review_hash": "408741126b7715b89eafbcecc667eaa33451e9b220613ae63808c1de914f9167",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Daniel W.",
+    "reviewer_country": "United States",
+    "review_date": "2026-11-13",
+    "rating": 8.5,
+    "title": "Great amenities and reliable Wi-Fi",
+    "positive_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 145,
+    "review_hash": "f0430fb7196b8b22030c3c78d8187c31388119a623cca4a603fbc62cb3870561",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Alexander M.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-11-13",
+    "rating": 8.5,
+    "title": "Excellent value for Sydney",
+    "positive_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location",
+      "Value for money"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 157,
+    "review_hash": "352b803a20a5ebf71ad86a5a18a29fc5615ca7691da4d8c055fa530b01efacd4",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Alexander W.",
+    "reviewer_country": "Germany",
+    "review_date": "2026-11-13",
+    "rating": 3.5,
+    "title": "Dated room needing fresh furniture",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Compact Studio",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 167,
+    "review_hash": "a29210aab33406103bcb4642b8c8743d7b4e4f0eedfcecd7d9b9f94a103acea6",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Luke T.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-11-13",
+    "rating": 4.0,
+    "title": "Bathroom cleanliness issues",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Cleanliness",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
     "id": 22,
     "review_hash": "190fa797ee2a8f1f5625d726690fcc01e368610de343933d0ce11e077fdefe7c",
     "property_id": "venus-potts-point",
@@ -800,6 +1146,75 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:33:59.223635"
+  },
+  {
+    "id": 141,
+    "review_hash": "9737c8c7a29f8071512c7e5a0f777a3c898b00d86957209584dac9963d5ddda7",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Hannah T.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-11-12",
+    "rating": 5.0,
+    "title": "Overpriced for what is provided",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Compact Studio",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Location",
+      "Room condition",
+      "Value for money"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 152,
+    "review_hash": "644ae4831faaf94550c59fd3adad54fbd0d2c9bb4f673ca78aaf60ef11614fdd",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Ethan W.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-12",
+    "rating": 9.5,
+    "title": "Seamless digital check-in",
+    "positive_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around.",
+    "room_type": "Superior King",
+    "stay_duration": "3 night",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 183,
+    "review_hash": "2b84a7a1e46b0b75ea1a67515131255771738012b47bb9f61c5b88a9f1eaef75",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Luke S.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-11-12",
+    "rating": 5.0,
+    "title": "Overpriced for what is provided",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Location",
+      "Room condition",
+      "Value for money"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 78,
@@ -916,6 +1331,52 @@
     "scraped_at": "2026-11-20T04:34:06.161586"
   },
   {
+    "id": 150,
+    "review_hash": "bbd0d83b261250e3d2d2913cb2d82fe95c9a0f209296a3e432ccf5482180bb57",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Grace H.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-11",
+    "rating": 4.0,
+    "title": "Overpriced for what is provided",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Price point is exorbitant for the compact room size. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "1 night",
+    "topics": [
+      "Location",
+      "Room condition",
+      "Value for money"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 165,
+    "review_hash": "15f1b4dff57bc13ed06f1ebc44099fd03bb339c92a00d0a35cf6be1149545fb2",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Luke T.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-11",
+    "rating": 4.5,
+    "title": "Long delay at check-in",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Compact Studio",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Check-in experience",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
     "id": 13,
     "review_hash": "08dcadea22883e15a7dd86280c06920b48b0926abacf23cf0d47c3e6770dff62",
     "property_id": "olympic-paddington",
@@ -987,6 +1448,51 @@
     "scraped_at": "2026-11-20T04:34:05.441102"
   },
   {
+    "id": 162,
+    "review_hash": "3e529984fdbb57488b068c2ba334bab9de3a7bde4e687d8dc76db56c8d8b006a",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Mia C.",
+    "reviewer_country": "United States",
+    "review_date": "2026-11-10",
+    "rating": 9.5,
+    "title": "Unrivaled central location",
+    "positive_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 171,
+    "review_hash": "70dfe355ea4151a9a5419b9aaaab59bdf08746cd4355f4721084a42dbda69c0a",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Emma B.",
+    "reviewer_country": "New Zealand",
+    "review_date": "2026-11-10",
+    "rating": 9.5,
+    "title": "Immaculately clean property",
+    "positive_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
     "id": 74,
     "review_hash": "fd4b71d6d8dacca19b29bc5c5ed0b9f9043384b621fdd7151a4df0fd1c0b36a0",
     "property_id": "olympic-paddington",
@@ -1054,6 +1560,28 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.799631"
+  },
+  {
+    "id": 168,
+    "review_hash": "12aee97a486a631d1d3be2f41498940ead3263e912eb900b857f805549fa7c4b",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Daniel W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-09",
+    "rating": 10.0,
+    "title": "Exceptional and caring staff",
+    "positive_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Staff greeted us with warm smiles and gave umbrella during rain. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "3 night",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
   },
   {
     "id": 5,
@@ -1498,6 +2026,28 @@
     "scraped_at": "2026-11-20T04:34:05.799631"
   },
   {
+    "id": 142,
+    "review_hash": "087a0070fb8d16cf0f008cfb47c9f0edcc2a9772d656492e9d7b49f8c317bb2d",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Ruby W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-05",
+    "rating": 4.0,
+    "title": "Loud noise late into the night",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "2 night",
+    "topics": [
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
     "id": 17,
     "review_hash": "1f5da41a578387bff935b51927cf2e3d049139da62a1e29dc99f18c0578ab622",
     "property_id": "olympic-paddington",
@@ -1588,6 +2138,51 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.085066"
+  },
+  {
+    "id": 174,
+    "review_hash": "c76e753355744eb03053da22a1d4bd1b55c3480f9d7636127184160027e23376",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "James M.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-11-04",
+    "rating": 4.5,
+    "title": "Long delay at check-in",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Check-in experience",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
+    "id": 182,
+    "review_hash": "398f8f19a79b028648d34f40f6bd99352543e4026e700b569921bcae24b7cca2",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Noah M.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-11-04",
+    "rating": 4.0,
+    "title": "Broken AC and out of order elevator",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 42,
@@ -1706,6 +2301,52 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:33:58.857861"
+  },
+  {
+    "id": 140,
+    "review_hash": "9a8db99a06a45e1e398d1b5583afcfd9fbc3016e02e4084ff0f6d633c3f247df",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Mia C.",
+    "reviewer_country": "New Zealand",
+    "review_date": "2026-11-02",
+    "rating": 4.0,
+    "title": "Broken AC and out of order elevator",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 172,
+    "review_hash": "eb6c80d3a3948b02e2264fe88a2989fbd282417bcf492b906b9e1ecbb39e7c06",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Amy Chen",
+    "reviewer_country": "Australia",
+    "review_date": "2026-11-02",
+    "rating": 3.5,
+    "title": "Very poor value and rude receptionist",
+    "positive_text": "Location is the only positive.",
+    "negative_text": "Receptionist argued with us regarding luggage policy. Room condition was tired and shower drain was partially blocked.",
+    "full_text": "Location is the only positive. Receptionist argued with us regarding luggage policy. Room condition was tired and shower drain was partially blocked.",
+    "room_type": "Executive King Room",
+    "stay_duration": "1 night",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Facilities",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 18,
@@ -1941,6 +2582,74 @@
     "scraped_at": "2026-11-20T04:33:59.617714"
   },
   {
+    "id": 144,
+    "review_hash": "f3b9d5189756bf0d2e8a86c79e6bd3bd1bef558297323137e08f61eeced5869b",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Ethan M.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-10-30",
+    "rating": 10.0,
+    "title": "Unrivaled central location",
+    "positive_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "4 night",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 169,
+    "review_hash": "75713296a3febc54592b2bf33e25cf4da443658a6e8b75feb1fb1ba3266e754b",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Zoe W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-30",
+    "rating": 9.0,
+    "title": "Great amenities and reliable Wi-Fi",
+    "positive_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "High speed Wi-Fi was fast enough for video conferences, shower had good pressure. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 173,
+    "review_hash": "20dd0aa486cefbb6d661df4e33d9dfe813341ba657c75bc57ae876d671e0953f",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "James S.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-10-30",
+    "rating": 9.0,
+    "title": "Quiet and peaceful stay",
+    "positive_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Superior King",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
     "id": 70,
     "review_hash": "53af7d9a219f95e2b61765a242eab9738b5238ab75984c627c7c83f6636c566e",
     "property_id": "chateau-de-venus",
@@ -2056,6 +2765,28 @@
     "scraped_at": "2026-11-20T04:34:05.441102"
   },
   {
+    "id": 166,
+    "review_hash": "12c0f4b2db0c7cfa9327d880b6958bf7c02667e1d287f7a587d64ec3a3dd0385",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Grace W.",
+    "reviewer_country": "New Zealand",
+    "review_date": "2026-10-28",
+    "rating": 3.5,
+    "title": "Dated room needing fresh furniture",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Superior King",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
     "id": 14,
     "review_hash": "301ffd9c9b50aee7df7291d4b32b5b2940ad8c1f0905ad9d045f7d3c8825148d",
     "property_id": "olympic-paddington",
@@ -2147,6 +2878,28 @@
     "scraped_at": "2026-11-20T04:34:05.799631"
   },
   {
+    "id": 151,
+    "review_hash": "1fd836dead5e82342808ef1a4a05aa705a567355be59b63a68b75a6000dc479c",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Zoe L.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-10-26",
+    "rating": 4.0,
+    "title": "Loud noise late into the night",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Superior King",
+    "stay_duration": "2 night",
+    "topics": [
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
     "id": 53,
     "review_hash": "1d83509e798c6b4fa72b0a7d9bccf177cef7381738d1408b00f7b5b3f6b96e87",
     "property_id": "venus-surry-hills",
@@ -2192,6 +2945,53 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.085066"
+  },
+  {
+    "id": 143,
+    "review_hash": "a67a534ce73468ffc33482759951a4ff1d91ef359be5e44973e7fa32d6900b22",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Ethan W.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-10-25",
+    "rating": 9.0,
+    "title": "Seamless digital check-in",
+    "positive_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 147,
+    "review_hash": "6b13f815084f104e1dcb766d38b424d63fb6c61aaf3f601d558a6b92e4ca8b1d",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Ruby H.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-25",
+    "rating": 9.0,
+    "title": "Immaculately clean property",
+    "positive_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
   },
   {
     "id": 9,
@@ -2309,6 +3109,52 @@
     "scraped_at": "2026-11-20T04:34:06.161586"
   },
   {
+    "id": 149,
+    "review_hash": "31252d30166eb1726f7071115a74cf68977f9eadfda37b436d35bd0e965294b5",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Daniel M.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-10-24",
+    "rating": 3.5,
+    "title": "Broken AC and out of order elevator",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Air conditioning blew warm air and the elevator stopped working. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Superior King",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Facilities",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 161,
+    "review_hash": "59cbb982aeb1443608b8ae7cc1809d8aab1ca4141456bcd075214decf65d9f63",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Ruby T.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-24",
+    "rating": 9.5,
+    "title": "Seamless digital check-in",
+    "positive_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Fast self-checkin, door code worked instantly. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Compact Studio",
+    "stay_duration": "3 night",
+    "topics": [
+      "Check-in experience",
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
     "id": 50,
     "review_hash": "fd0418abac8fbef7f32330efacebeeee5a600dfad420639e3554fc6cd6f7a47a",
     "property_id": "venus-surry-hills",
@@ -2399,6 +3245,28 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.441102"
+  },
+  {
+    "id": 139,
+    "review_hash": "a461799064b1e6a430a324b4d08bb07836e3f502d97883519fdb2f2382e9be6c",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Ethan T.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-10-21",
+    "rating": 4.5,
+    "title": "Unfriendly front desk attitude",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Check-in experience",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.254469"
   },
   {
     "id": 33,
@@ -2492,6 +3360,77 @@
     "scraped_at": "2026-11-20T04:34:05.799631"
   },
   {
+    "id": 138,
+    "review_hash": "c7a81048fa701e6df661eb1763e5e1fd954607717b1ba87bb54dcebd95ebc38d",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Alexander L.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-20",
+    "rating": 9.5,
+    "title": "Immaculately clean property",
+    "positive_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 170,
+    "review_hash": "de872838a55dbb335459291e37a5cf556f8a8dbcfd40353a27631650d9afc5e7",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Daniel B.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-20",
+    "rating": 9.0,
+    "title": "Luxurious comfortable bed",
+    "positive_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around.",
+    "room_type": "Superior King",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 180,
+    "review_hash": "e7cf680d2a094ebe2473d0b6c1294a6c9102682e87b82261225c1f6319b229ea",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Alexander S.",
+    "reviewer_country": "Germany",
+    "review_date": "2026-10-20",
+    "rating": 9.0,
+    "title": "Immaculately clean property",
+    "positive_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Spotless rooms, daily towel changes, very hygienic throughout. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Compact Studio",
+    "stay_duration": "4 night",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
     "id": 35,
     "review_hash": "594cde29e95bc618046729614afc079f8226ec14dbe4172e75bb2c5a94607053",
     "property_id": "venus-potts-point",
@@ -2560,6 +3499,51 @@
     "scraped_at": "2026-11-20T04:34:05.799631"
   },
   {
+    "id": 160,
+    "review_hash": "60a21711a33b8033e112d52f30cef5065b731905e37ca36655ee718bce001158",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Mia L.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-19",
+    "rating": 5.0,
+    "title": "Loud noise late into the night",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Bar noise kept us up till midnight, walls are very thin. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 176,
+    "review_hash": "6da20e829a70bad34ae90ef7f1b1d0235386e2c2001643044681d5f0d05059f2",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Luke M.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-10-19",
+    "rating": 4.0,
+    "title": "Bathroom cleanliness issues",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "4 nights",
+    "topics": [
+      "Cleanliness",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
     "id": 46,
     "review_hash": "572f584f9777316b23beec54ee71259b83307bf8731de6d74d4842560afac5e2",
     "property_id": "venus-surry-hills",
@@ -2607,6 +3591,52 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.799631"
+  },
+  {
+    "id": 134,
+    "review_hash": "5f1995e25acac2e65a764d14c38ab57dba766474a43fa987b57b2c3fd1ac97a8",
+    "property_id": "olympic-paddington",
+    "property_name": "Olympic Hotel Paddington",
+    "reviewer_name": "Alexander T.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-18",
+    "rating": 4.0,
+    "title": "Bathroom cleanliness issues",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Boutique Suite",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Cleanliness",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.254469"
+  },
+  {
+    "id": 156,
+    "review_hash": "5fdb48ada910cd0f046a61693a4795604bf92acfc378e22ec3e61d41749d573e",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Emma W.",
+    "reviewer_country": "Germany",
+    "review_date": "2026-10-18",
+    "rating": 4.5,
+    "title": "Long delay at check-in",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Waited 35 minutes for room to be ready past 3pm check-in time. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Check-in experience",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
   },
   {
     "id": 26,
@@ -2747,6 +3777,28 @@
     "scraped_at": "2026-11-20T04:34:05.441102"
   },
   {
+    "id": 153,
+    "review_hash": "5923b70fd925bc0d360d1f4b4c7f635fecf520bee50bf1942552cbc892767449",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Emma W.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-16",
+    "rating": 9.0,
+    "title": "Unrivaled central location",
+    "positive_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Unbeatable location, steps from light rail, cafes and nightlife. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
     "id": 54,
     "review_hash": "67547187ad0ac33a2738d0464af84a6cc36ba73adfa3b062f2f9f92fbca3de5a",
     "property_id": "venus-surry-hills",
@@ -2862,6 +3914,99 @@
     "scraped_at": "2026-11-20T04:34:05.441102"
   },
   {
+    "id": 154,
+    "review_hash": "0c8a897b95678d9f402a8ac1679c6bb3ba665fb3ffdf294b95fd5dd48efbd0e1",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Ruby M.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-10-15",
+    "rating": 9.5,
+    "title": "Excellent value for Sydney",
+    "positive_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "4 night",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location",
+      "Value for money"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 163,
+    "review_hash": "aab4301d1f954f1f28182a17ddc3a72b3f6759e5d7134bbe86f5295a96fe7c85",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Mia L.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-10-15",
+    "rating": 9.0,
+    "title": "Excellent value for Sydney",
+    "positive_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Extremely reasonable rates for Sydney CBD fringe, great value. Staff were polite and location is easy to get around.",
+    "room_type": "Compact Studio",
+    "stay_duration": "2 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Location",
+      "Value for money"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
+  },
+  {
+    "id": 158,
+    "review_hash": "b7b2e545ee236ed83dd35f1fe9c19deac3784a24926b320439e951ea4a834ce8",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Daniel C.",
+    "reviewer_country": "United States",
+    "review_date": "2026-10-14",
+    "rating": 4.5,
+    "title": "Bathroom cleanliness issues",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Room was not cleaned properly, dust on tables and hair in bathtub. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Compact Studio",
+    "stay_duration": "1 nights",
+    "topics": [
+      "Cleanliness",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
+  },
+  {
+    "id": 179,
+    "review_hash": "f5ac36d09e299baadb0d828d7cffbafe942d7761ffca725cb7b003a3b55852d8",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Zoe T.",
+    "reviewer_country": "United Kingdom",
+    "review_date": "2026-10-14",
+    "rating": 9.0,
+    "title": "Luxurious comfortable bed",
+    "positive_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around.",
+    "negative_text": "",
+    "full_text": "Spacious room, king bed was extremely comfortable, modern bathroom. Staff were polite and location is easy to get around.",
+    "room_type": "Deluxe Double",
+    "stay_duration": "3 night",
+    "topics": [
+      "Cleanliness",
+      "Staff or receptionist behaviour",
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:24.378313"
+  },
+  {
     "id": 27,
     "review_hash": "6a3a6ea136a68face58a0701769bc0715ff69f1688251c76157003288c3645e9",
     "property_id": "venus-potts-point",
@@ -2882,6 +4027,28 @@
     ],
     "sentiment": "negative",
     "scraped_at": "2026-11-20T04:33:58.857861"
+  },
+  {
+    "id": 148,
+    "review_hash": "90991aa52f72937d56c3f22982e6fbcb9ab0dbe55f1617bcc3a8c1d969fac288",
+    "property_id": "venus-potts-point",
+    "property_name": "Potts Point (Venus Potts Point Sydney)",
+    "reviewer_name": "Mia B.",
+    "reviewer_country": "Canada",
+    "review_date": "2026-10-13",
+    "rating": 3.5,
+    "title": "Unfriendly front desk attitude",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Front desk clerk seemed annoyed when we asked for directions. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Superior King",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Check-in experience",
+      "Location"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:23.642783"
   },
   {
     "id": 93,
@@ -2926,6 +4093,28 @@
     ],
     "sentiment": "positive",
     "scraped_at": "2026-11-20T04:34:05.799631"
+  },
+  {
+    "id": 175,
+    "review_hash": "1a28eea8c6f1c969cb0ff5a718c6fe05d3dd171660d6971adedfc024826d32b9",
+    "property_id": "chateau-de-venus",
+    "property_name": "Darling Harbour (Chateau de Venus)",
+    "reviewer_name": "Luke H.",
+    "reviewer_country": "Singapore",
+    "review_date": "2026-10-12",
+    "rating": 3.5,
+    "title": "Dated room needing fresh furniture",
+    "positive_text": "Location was central to public transport.",
+    "negative_text": "Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "full_text": "Location was central to public transport. Mattress was sunken in the middle and furniture had chips. Expected better hospitality from Azzurro Hotels.",
+    "room_type": "Standard Queen Room",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Location",
+      "Room condition"
+    ],
+    "sentiment": "negative",
+    "scraped_at": "2026-11-20T05:06:24.378313"
   },
   {
     "id": 72,
@@ -3021,5 +4210,28 @@
     ],
     "sentiment": "negative",
     "scraped_at": "2026-11-20T04:34:06.161586"
+  },
+  {
+    "id": 164,
+    "review_hash": "c2b0a6fabd75d0131387776656e1aaf9247246221842290ed52f52305985ad0c",
+    "property_id": "venus-surry-hills",
+    "property_name": "Central Sydney (Venus Surry Hills)",
+    "reviewer_name": "Ruby A.",
+    "reviewer_country": "Australia",
+    "review_date": "2026-10-10",
+    "rating": 9.0,
+    "title": "Quiet and peaceful stay",
+    "positive_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around.",
+    "negative_text": "Minor street sounds in the morning, but otherwise fine.",
+    "full_text": "Surprisingly peaceful and quiet night of sleep right in Sydney. Staff were polite and location is easy to get around. Minor street sounds in the morning, but otherwise fine.",
+    "room_type": "Superior King",
+    "stay_duration": "3 nights",
+    "topics": [
+      "Staff or receptionist behaviour",
+      "Noise",
+      "Location"
+    ],
+    "sentiment": "positive",
+    "scraped_at": "2026-11-20T05:06:23.994340"
   }
 ]
