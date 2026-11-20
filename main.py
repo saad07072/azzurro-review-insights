@@ -1,3 +1,4 @@
+import os
 import uvicorn
 import json
 from app.config import SAMPLE_JSON_PATH
@@ -19,9 +20,11 @@ def bootstrap():
 
 if __name__ == "__main__":
     bootstrap()
+    port = int(os.environ.get("PORT", 8000))
+    host = "0.0.0.0"
     print("\n=======================================================")
     print("  🏨 Azzurro Hotels - Operations Review Dashboard")
-    print("  🚀 Server running at: http://127.0.0.1:8000")
-    print("  📖 API Documentation: http://127.0.0.1:8000/docs")
+    print(f"  🚀 Server running on port {port}")
+    print(f"  📖 API Documentation: http://127.0.0.1:{port}/docs")
     print("=======================================================\n")
-    uvicorn.run("app.api:app", host="127.0.0.1", port=8000, reload=False)
+    uvicorn.run("app.api:app", host=host, port=port, reload=False)

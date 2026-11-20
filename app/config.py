@@ -1,11 +1,26 @@
 import os
+import shutil
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-DATA_DIR.mkdir(exist_ok=True)
-DB_PATH = DATA_DIR / "azzurro_reviews.db"
-SAMPLE_JSON_PATH = DATA_DIR / "sample_reviews.json"
+
+# Detect Vercel or read-only container environments
+IS_VERCEL = "VERCEL" in os.environ
+
+if IS_VERCEL:
+    DATA_DIR = Path("/tmp/azzurro_data")
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DB_PATH = DATA_DIR / "azzurro_reviews.db"
+    # Copy pre-seeded DB or seed json to /tmp if not present
+    bundled_db = BASE_DIR / "data" / "azzurro_reviews.db"
+    if bundled_db.exists() and not DB_PATH.exists():
+        shutil.copy(bundled_db, DB_PATH)
+else:
+    DATA_DIR = BASE_DIR / "data"
+    DATA_DIR.mkdir(exist_ok=True)
+    DB_PATH = DATA_DIR / "azzurro_reviews.db"
+
+SAMPLE_JSON_PATH = BASE_DIR / "data" / "sample_reviews.json"
 
 PROPERTIES = [
     {
