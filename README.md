@@ -1,6 +1,30 @@
 # Azzurro Hotels — Booking.com Review Insights Dashboard
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/saad07072/azzurro-review-insights)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/saad07072/azzurro-review-insights)
+
 An operations-focused intelligence platform designed for non-technical hotel operations managers and general managers at **Azzurro Hotels**. The application collects guest reviews from Booking.com across four key properties in Sydney, monitors sentiment in real time, computes week-on-week performance shifts, and automatically groups guest feedback into actionable operational categories (Cleanliness, Noise, Staff, Check-in, etc.).
+
+---
+
+## 🚀 Instant Cloud Deployment (1-Click)
+
+### Option A: Render (Recommended for full backend & persistent SQLite)
+1. Click **[Deploy to Render](https://render.com/deploy?repo=https://github.com/saad07072/azzurro-review-insights)** or go to [dashboard.render.com](https://dashboard.render.com).
+2. Click **New +** > **Web Service**.
+3. Select your repository `saad07072/azzurro-review-insights`.
+4. Render automatically detects the configuration:
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `python main.py`
+5. Click **Deploy Web Service**. Your live demo URL will be ready in ~1 minute (e.g. `https://azzurro-review-insights.onrender.com`).
+
+### Option B: Vercel
+1. Click **[Deploy with Vercel](https://vercel.com/new/clone?repository-url=https://github.com/saad07072/azzurro-review-insights)** or go to [vercel.com/new](https://vercel.com/new).
+2. Import the `saad07072/azzurro-review-insights` repository.
+3. Keep default settings (Vercel automatically detects `vercel.json` and `api/index.py`).
+4. Click **Deploy**.
+
+---
 
 ---
 
